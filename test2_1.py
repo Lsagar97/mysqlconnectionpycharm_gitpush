@@ -8,3 +8,6 @@ cursor = mydb.cursor()
 cursor.execute("select * from likith123.bank_details")
 for i in cursor.fetchall():
     print(i)
+
+
+    likith

@@ -22,3 +22,6 @@ mydb.commit()  ##like iam commiting changes or asigned vales in table
 cursor.execute("select * from likithdb.likithdetails")
 for i in cursor.fetchall():
     print(i)
+
+
+    liki

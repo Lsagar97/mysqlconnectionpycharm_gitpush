@@ -65,7 +65,7 @@ insert into bank_details values
 
 
 
-
+liki
 
 
 

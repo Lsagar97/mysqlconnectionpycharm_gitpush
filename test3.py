@@ -6,3 +6,4 @@ l=[]
 for i in cursor.fetchall():
     l.append(i)
 print(l,type(l[0]))
+likith

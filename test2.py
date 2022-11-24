@@ -9,3 +9,4 @@ q1= cur.execute("select * from likithdb.likithdetails")
 print(q1)
 
 
+likith
