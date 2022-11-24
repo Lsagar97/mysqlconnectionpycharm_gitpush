@@ -21,14 +21,14 @@ l =[]
 #for i in cur.fetchall():
     #l.append(i)
   #  print(l,type(l[0]))
-#cur.execute("select attributedatasetcsv.Dress_ID from likithdb.attributedatasetcsv right join likithdb.dresssales on attributedatasetcsv.Dress_ID = dresssales.Dress_ID")
-cur.execute("select attributedatasetcsv.Size from likithdb.attributedatasetcsv")
+cur.execute("select attributedatasetcsv.Dress_ID from likithdb.attributedatasetcsv left join likithdb.dresssales on attributedatasetcsv.Dress_ID = dresssales.Dress_ID")
+#cur.execute("select attributedatasetcsv.Size from likithdb.attributedatasetcsv")
 for i in cur.fetchall():
     l.append(i)
     #print(i,l.index(i)) #to count no of data's
-    print(i,i.count('L'))
+    print(i,l.index(i))
 #print(l.count("1006032852"))
 #print(l)
 #t=(1,2,3,4,4,4,5,6)
 #print(t.count(4))
-print(l.count())))
+#print(l.count())))
