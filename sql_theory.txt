@@ -1,0 +1,76 @@
+what is database?
+A databases is a collection of stored data in a format
+that can easily be accesssed.
+
+in orded to manage our databases, we use software APPLICATION
+called database management system(DBMS).
+
+they are of two types!!
+RELATIONAL(RDBMS) and NON RELATIONAL also called NoSQl
+in RELATIONAL DATABASE, we store data in tables
+that are linked to each other. That's why
+they are called RELATIONAL DATABASES.
+******* WE use SQL(STRUCTURED QUERY LANGUAGE) in REALTIONAL DATABASE SYSTEM
+--> SQL is the language we use to work in RELATIONAL DATAbASE SYStem using query's
+RDBMS___>> MYSQl , SQL Server , Oracle (all these are same but has diffenent flavours)
+
+NON relational databases--->> we dont have tables or relations,
+>> these databases are very different from RDBMS
+>>NON relational databases (NoSQL) does not understand SQl
+
+SQL or SEQUAL?
+SQL was developed by IBM in 70s back then initialy CALLED SQUEl(Structured English Query Language)
+later changed to SQL because SEQUAL was trademark of an aeroplane company.
+its fine you can call by both
+
+SQL in MySQL
+some commands of MySQl
+-- USE <databasename> ; ("it opens the database with the given name"
+untill you doesnot close with ";" it doesnt take next command
+--> SELECT * FROM <databasename.tablename>
+--> WHERE <table's_coloumn_name_> = <its_value>
+--> ORDER BY <table's_coloumn_name> ASC or DESC(by default it will take ASCendind order)
+-->SELECT clause
+    example:
+        SELECT                    here[ last_name,first_name,points are coloums & points is being altered here by adding new colomn called discount_factor ]
+             last_name,             customers is table name
+             first_name,
+              points,
+              (points + 10)*100 AS discount_factor
+        FROM customers
+
+operators ( == , >= , <= ,!= ,<> ) where <> is similar to !=
+
+##this below data used for braketing for data using pycharm while learning in shudanshu class 17th july.....
+insert into bank_details values
+(44;"technician";"single";"secondary";"no";29;"yes";"no";"unknown";5;"may";151;1;-1;0;"unknown";"no"),
+(33;"entrepreneur";"married";"secondary";"no";2;"yes";"yes";"unknown";5;"may";76;1;-1;0;"unknown";"no"),
+(47;"blue-collar";"married";"unknown";"no";1506;"yes";"no";"unknown";5;"may";92;1;-1;0;"unknown";"no"),
+(33;"unknown";"single";"unknown";"no";1;"no";"no";"unknown";5;"may";198;1;-1;0;"unknown";"no"),
+(35;"management";"married";"tertiary";"no";231;"yes";"no";"unknown";5;"may";139;1;-1;0;"unknown";"no"),
+(28;"management";"single";"tertiary";"no";447;"yes";"yes";"unknown";5;"may";217;1;-1;0;"unknown";"no"),
+(42;"entrepreneur";"divorced";"tertiary";"yes";2;"yes";"no";"unknown";5;"may";380;1;-1;0;"unknown";"no"),
+(58;"retired";"married";"primary";"no";121;"yes";"no";"unknown";5;"may";50;1;-1;0;"unknown";"no"),
+(43;"technician";"single";"secondary";"no";593;"yes";"no";"unknown";5;"may";55;1;-1;0;"unknown";"no"),
+(41;"admin.";"divorced";"secondary";"no";270;"yes";"no";"unknown";5;"may";222;1;-1;0;"unknown";"no"),
+(29;"admin.";"single";"secondary";"no";390;"yes";"no";"unknown";5;"may";137;1;-1;0;"unknown";"no"),
+(53;"technician";"married";"secondary";"no";6;"yes";"no";"unknown";5;"may";517;1;-1;0;"unknown";"no"),
+(58;"technician";"married";"unknown";"no";71;"yes";"no";"unknown";5;"may";71;1;-1;0;"unknown";"no"),
+(57;"services";"married";"secondary";"no";162;"yes";"no";"unknown";5;"may";174;1;-1;0;"unknown";"no"),
+(51;"retired";"married";"primary";"no";229;"yes";"no";"unknown";5;"may";353;1;-1;0;"unknown";"no"),
+(45;"admin.";"single";"unknown";"no";13;"yes";"no";"unknown";5;"may";98;1;-1;0;"unknown";"no"),
+(57;"blue-collar";"married";"primary";"no";52;"yes";"no";"unknown";5;"may";38;1;-1;0;"unknown";"no"),
+(60;"retired";"married";"primary";"no";60;"yes";"no";"unknown";5;"may";219;1;-1;0;"unknown";"no");
+
+
+
+
+
+
+
+
+
+
+
+
+
